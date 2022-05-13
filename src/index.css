@@ -1,1 +1,15 @@
 @import url('./styles/styles.css');
+
+@font-face {
+  font-family: "BergenText-Regular";
+  src: local("BergenText-Regular"),
+   url("./assets/fonts/BergenText-Regular.otf") format("opentype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "RhinosRocks-Regular";
+  src: local("Rhinos rocks 1"),
+   url("./assets/fonts/Rhinos rocks 1.ttf") format("truetype");
+  font-weight: bold;
+}

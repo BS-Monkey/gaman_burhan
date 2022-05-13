@@ -4,6 +4,10 @@ import BtnSelect3Svg from './assets/images/btn-select-3.svg';
 import BtnSelect4Svg from './assets/images/btn-select-4.svg';
 import BtnSelect5Svg from './assets/images/btn-select-5.svg';
 import BtnSelect6Svg from './assets/images/btn-select-6.svg';
+import TeamImage1 from './assets/images/teammate_1.png';
+import TeamImage2 from './assets/images/teammate_2.png';
+import TeamImage3 from './assets/images/teammate_3.png';
+import TeamImage4 from './assets/images/teammate_4.png';
 import StakeSvg from './assets/images/stake.svg';
 import RebirthSvg from './assets/images/rebirth.svg';
 import BurnSvg from './assets/images/burn.svg';
@@ -30,13 +34,13 @@ export const KANE_ITEMS = [
   {
     id: 1,
     title: 'Wizard',
-    imgSrc: BtnSelect2Svg,
+    imgSrc: BtnSelect1Svg,
     animSrc: AnimGif1,
   },
   {
     id: 2,
     title: 'Samurai',
-    imgSrc: BtnSelect1Svg,
+    imgSrc: BtnSelect2Svg,
     animSrc: AnimGif2,
   },
   {
@@ -70,21 +74,48 @@ export const PROTOCOL_ITEMS = [
     id: 'stake',
     title: 'statke',
     imgSrc: StakingGif,
-    description:
-      'Earn for holding. Utilizing the staking function will grant $SOULS in daily rewards, the amount received via staking will be calculated based on the rarity of your NFT(s).',
+    description: 'Earn for holding. Utilizing the staking function will grant $SOULS in daily rewards, the amount received via staking will be calculated based on the rarity of your NFT(s).',
+    class: 'row-reverse'
   },
   {
     id: 'burn',
     title: 'burn',
     imgSrc: BurnningGif,
-    description:
-      'Extinguish the light of The Tarnished in exchange for $SOULS.The amount you receive from the burn is calculated algorithmically based on rarity parameters of any given NFT.',
+    description: 'Extinguish the light of The Tarnished in exchange for $SOULS.The amount you receive from the burn is calculated algorithmically based on rarity parameters of any given NFT.',
+    class: ''
   },
   {
     id: 'rebirth',
     title: 'rebirth',
     imgSrc: RebirthGit,
-    description:
-      'Rebirthing is a unique function designed to allow members more power over the customization of The Tarnished. You can rebirth and potentially turn your common into something rarer. Rebirthing is a dynamic function that will later allow further customization of traits in the future. ',
+    description: 'Rebirthing is a unique function designed to allow members more power over the customization of The Tarnished. You can rebirth and potentially turn your common into something rarer. Rebirthing is a dynamic function that will later allow further customization of traits in the future. ',
+    class: 'row-reverse'
+  },
+];
+
+export const TEAMMATES = [
+  {
+    id: 1,
+    name: 'John Doe',
+    imgSrc: TeamImage1,
+    description: 'Game Developer',
+  },
+  {
+    id: 2,
+    name: 'John Doe',
+    imgSrc: TeamImage2,
+    description: 'Game Developer',
+  },
+  {
+    id: 3,
+    name: 'John Doe',
+    imgSrc: TeamImage3,
+    description: 'Game Developer',
+  },
+  {
+    id: 4,
+    name: 'John Doe',
+    imgSrc: TeamImage4,
+    description: 'Game Developer',
   },
 ];
