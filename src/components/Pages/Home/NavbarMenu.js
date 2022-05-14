@@ -1,4 +1,5 @@
 import { Navbar, Container, Nav } from 'react-bootstrap';
+import { Link } from 'react-scroll'
 
 import Logo3Png from '../../../assets/images/logo3.png';
 import Logo2Svg from '../../../assets/images/logo2.svg';
@@ -17,46 +18,32 @@ const NavbarMenu = () => {
         <Navbar.Collapse id='navbarScroll'>
           <Nav className='social-nav'>
             <Nav.Item>
-              <Nav.Link href='' target=''>
+              <Nav.Link as={Link} href='' to='section-manifesto' spy={true} smooth={true}>
                 <p alt='manifesto' >MANIFESTO</p>
               </Nav.Link>
-              {/* <Nav.Link href='https://twitter.com/gamannft' target='_blank'>
-                <img src={TwitterIconSvg} alt='twitter' />
-              </Nav.Link> */}
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href='' target=''>
+              <Nav.Link as={Link} href='' to='section-meettoji' spy={true} smooth={true}>
                 <p alt='classes' >CLASSES</p>
               </Nav.Link>
-              {/* <Nav.Link
-                href='https://twitter.com/gamannft'
-                target='_blank'
-                disabled
-              >
-                <img
-                  src={DiscordIconSvg}
-                  alt='discord'
-                  style={{ width: '100%' }}
-                />
-              </Nav.Link> */}
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href='' target=''>
+              <Nav.Link as={Link} href='' to='section-protocol' spy={true} smooth={true}>
                 <p alt='souls-protocol' >SOULS PROTOCOL</p>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href='' target=''>
+              <Nav.Link as={Link} href='' to='section-spirit' spy={true} smooth={true}>
                 <p alt='spirit-guide' >SPIRIT GUIDE</p>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href='' target=''>
-                <p alt='team' >TEAM</p>
+              <Nav.Link as={Link} href='' to='section-teammate' spy={true} smooth={true}>
+                <p alt='team'>TEAM</p>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href='' target=''>
+              <Nav.Link as={Link} href='' to='section-manifesto' spy={true} smooth={true}>
                 <div className='lock'>
                   <label>Locked</label>
                   <p className='black' alt='the-tarnished' >THE TARNISHED</p>
@@ -64,7 +51,7 @@ const NavbarMenu = () => {
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href='' target=''>
+              <Nav.Link as={Link} href='' to='section-manifesto' spy={true} smooth={true}>
                 <div className='lock'>
                   <label>Locked</label>
                   <p className='black' alt='merch' >MERCH</p>
